@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "clicked=false":{ "model": "practicemod:block/custom_block"},
+    "clicked=true":{ "model": "practicemod:block/custom_block_clicked"}
+  }
+}

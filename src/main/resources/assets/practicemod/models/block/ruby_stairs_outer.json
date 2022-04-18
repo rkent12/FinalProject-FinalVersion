@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "practicemod:block/ruby_block",
+    "top": "practicemod:block/ruby_block",
+    "side": "practicemod:block/ruby_block"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "## ",
+    "#* ",
+    " * "
+  ],
+  "key": {
+    "#": {
+      "tag": "c:rubies"
+    },
+    "*": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "practicemod:ruby_axe"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#*#",
+    "#%#",
+    "&&&"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_block"
+    },
+    "%": {
+      "item": "practicemod:fourth_block"
+    },
+    "&": {
+      "item": "minecraft:diamond"
+    },
+    "*": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "practicemod:fifth_block"
+  }
+}

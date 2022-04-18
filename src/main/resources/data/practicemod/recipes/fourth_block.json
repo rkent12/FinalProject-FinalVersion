@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#&#",
+    "&%&",
+    "*&*"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_block"
+    },
+    "%": {
+      "item": "practicemod:third_block"
+    },
+    "&": {
+      "item": "minecraft:diamond"
+    },
+    "*": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "practicemod:fourth_block"
+  }
+}

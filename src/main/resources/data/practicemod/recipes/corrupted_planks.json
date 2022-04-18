@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " # ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "practicemod:corrupted_log"
+    }
+  },
+  "result": {
+    "item": "practicemod:corrupted_planks",
+    "item": "practicemod:corrupted_planks",
+    "item": "practicemod:corrupted_planks",
+    "item": "practicemod:corrupted_planks"
+  }
+}

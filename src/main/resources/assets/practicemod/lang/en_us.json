@@ -1,0 +1,45 @@
+{
+  "item.practicemod.bajablast": "Baja Blast",
+  "item.practicemod.ruby": "Ruby",
+  "item.practicemod.pepper": "Pepper",
+  "item.practicemod.dowsing_rod": "Dowsing Rod",
+  "item.practicemod.custom_item": "Custom Item",
+  "item.practicemod.iron_wool": "Iron Wool",
+  "item.practicemod.ruby_axe": "Ruby Axe",
+  "item.practicemod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.practicemod.ruby_shovel": "Ruby Shovel",
+  "item.practicemod.ruby_sword": "Ruby Sword",
+  "item.practicemod.ruby_hoe": "Ruby Hoe",
+  "item.practicemod.ruby_helmet": "Ruby Helmet",
+  "item.practicemod.ruby_chestplate": "Ruby Chestplate",
+  "item.practicemod.ruby_leggings": "Ruby Leggings",
+  "item.practicemod.ruby_boots": "Ruby Boots",
+
+  "block.practicemod.ruby_ore": "Ruby Ore",
+  "block.practicemod.ruby_block": "Ruby Block",
+  "block.practicemod.status_block": "Status Block",
+  "block.practicemod.ruby_slab": "Ruby Slab",
+  "block.practicemod.ruby_stairs": "Ruby Stairs",
+
+  "block.practicemod.corrupted_log": "Corrupted Log",
+  "block.practicemod.corrupted_planks": "Corrupted Planks",
+  "block.practicemod.corrupted_wood": "Corrupted Wood",
+  "block.practicemod.stripped_corrupted_log": "Stripped Corrupted Log",
+  "block.practicemod.stripped_corrupted_wood": "Stripped Corrupted Wood",
+  "block.practicemod.stripped_corrupted_leaves": "Corrupted Leaves",
+  "block.practicemod.stripped_corrupted_sapling": "Corrupted Sapling",
+
+  "block.practicemod.first_block": "First Block",
+  "block.practicemod.second_block": "Second Block",
+  "block.practicemod.third_block": "Third Block",
+  "block.practicemod.fourth_block": "Fourth Block",
+  "block.practicemod.fifth_block": "Fifth Block",
+
+  "itemGroup.practicemod.mod": "Mod Tab",
+
+  "tooltip.practicemod.dowsing_rod": "Hold shift for more information",
+  "tooltip.practicemod.dowsing_rod_shift": "Right-Click block to see if there are valuables below",
+
+  "enchantment.practicemod.thor_enchantment": "Thor Enchantment",
+  "enchantment.practicemod.adrenaline_enchantment": "Adrenaline Enchantment"
+}
