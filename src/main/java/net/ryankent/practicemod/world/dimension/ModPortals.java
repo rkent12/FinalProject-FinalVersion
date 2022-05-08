@@ -4,7 +4,7 @@ import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
 import net.ryankent.practicemod.block.ModBlocks;
 import net.ryankent.practicemod.item.ModItems;
 
-public class ModPortals {
+public class ModPortals { // Custom Portal API - https://github.com/kyrptonaught/customportalapi
     public static void registerPortals() { // Just sets the blocks that the portal has to be built with, the item to activate the portal, and the dimension it goes too
         CustomPortalBuilder.beginPortal()
                 .frameBlock(ModBlocks.RUBY_BLOCK)
