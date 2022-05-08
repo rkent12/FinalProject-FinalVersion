@@ -13,7 +13,7 @@ import net.ryankent.practicemod.PracticeMod;
 
 import java.awt.event.ItemEvent;
 
-public class BoxScreenHandler extends ScreenHandler {
+public class  BoxScreenHandler extends ScreenHandler {
     private final Inventory inventory;
 
     public BoxScreenHandler(int syncId, PlayerInventory playerInventory) {

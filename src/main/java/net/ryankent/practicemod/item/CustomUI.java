@@ -9,13 +9,13 @@ import net.minecraft.util.collection.DefaultedList;
 
 public interface CustomUI extends Inventory {
 
-    DefaultedList<ItemStack> getItems();
+    DefaultedList<ItemStack> getItems(); // Variable to keep the item stack selected
 
     static CustomUI of(DefaultedList<ItemStack> items) {
         return () -> items;
     }
 
-    static CustomUI ofSize(int size) {
+    static CustomUI ofSize(int size) { // Sets the size inventory
         return of(DefaultedList.ofSize(size, ItemStack.EMPTY));
     }
 
@@ -72,7 +72,7 @@ public interface CustomUI extends Inventory {
 
     @Override
     default void markDirty() {
-        // Override if you want behavior.
+        // Override if behavior is needed
     }
 
     @Override

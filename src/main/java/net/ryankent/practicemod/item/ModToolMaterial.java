@@ -10,6 +10,8 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 //Got majority of material code from C:\Users\ryang\.gradle\caches\fabric-loom\1.17.1\net.fabricmc.yarn.1_17_1.1.17.1+build.63-v2\minecraft-mapped.jar!\net\minecraft\item\ToolMaterials.class
+// Just used tool material settings from the actual minecraft files to make my new tool material
+
 
 public enum ModToolMaterial implements ToolMaterial {
 

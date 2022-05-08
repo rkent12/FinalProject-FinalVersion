@@ -26,14 +26,15 @@
   "block.practicemod.corrupted_wood": "Corrupted Wood",
   "block.practicemod.stripped_corrupted_log": "Stripped Corrupted Log",
   "block.practicemod.stripped_corrupted_wood": "Stripped Corrupted Wood",
-  "block.practicemod.stripped_corrupted_leaves": "Corrupted Leaves",
-  "block.practicemod.stripped_corrupted_sapling": "Corrupted Sapling",
+  "block.practicemod.corrupted_leaves": "Corrupted Leaves",
+  "block.practicemod.corrupted_sapling": "Corrupted Sapling",
 
   "block.practicemod.first_block": "First Block",
   "block.practicemod.second_block": "Second Block",
   "block.practicemod.third_block": "Third Block",
   "block.practicemod.fourth_block": "Fourth Block",
   "block.practicemod.fifth_block": "Fifth Block",
+  "block.practicemod.ui_block": "UI Block",
 
   "itemGroup.practicemod.mod": "Mod Tab",
 

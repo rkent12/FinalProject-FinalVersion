@@ -11,7 +11,7 @@ import net.minecraft.item.SwordItem;
 import net.minecraft.item.ShovelItem;
 
 
-public class ModItems {
+public class ModItems { // Registers all the mod items that I made into the game
 
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings().group(ModItemGroup.MOD)));
 

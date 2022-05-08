@@ -4,16 +4,13 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.*;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.ryankent.practicemod.PracticeMod;
 import net.ryankent.practicemod.block.custom.*;
 import net.ryankent.practicemod.item.ModItemGroup;
-import net.ryankent.practicemod.world.features.ModConfiguredFeatures;
 import net.ryankent.practicemod.world.features.tree.CorruptedSaplingGenerator;
 
 
@@ -34,9 +31,6 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(6.0f)
                     .breakByTool(FabricToolTags.PICKAXES,2).requiresTool()));
 
-    public static final Block CUSTOM_BLOCK = registerBlock("custom_block",
-            new CustomBlock(FabricBlockSettings.of(Material.STONE).strength(6f)
-                    .breakByTool(FabricToolTags.PICKAXES, 2).requiresTool().nonOpaque()));
 
     public static final Block UI_BLOCK = registerBlock("ui_block",
             new UIBlock(FabricBlockSettings.of(Material.STONE).strength(6f)

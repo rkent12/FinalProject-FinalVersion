@@ -3,7 +3,7 @@ package net.ryankent.practicemod.item.custom;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;
 
-public class ModPickaxeItem extends PickaxeItem {
+public class ModPickaxeItem extends PickaxeItem { // Class that can assign attributes to a pickaxe, like its class, and statistics for mining / attacking
     public ModPickaxeItem(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
         super(material, attackDamage, attackSpeed, settings);
     }

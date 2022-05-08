@@ -12,5 +12,5 @@ public class ModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         ScreenRegistry.register(PracticeMod.BOX_SCREEN_HANDLER, BoxScreen::new);
-    }
+    } //This is used to load the custom box UI that I made
 }

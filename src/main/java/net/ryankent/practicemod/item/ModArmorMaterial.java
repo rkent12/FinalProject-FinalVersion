@@ -11,13 +11,13 @@ import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
+
+//Similar to the ModToolMaterial I also got the majority of the information from this from the minecraft game files.
+
 public enum ModArmorMaterial implements ArmorMaterial {
 
     RUBY("ruby", 25, new int[]{8, 8, 8, 8}, 12, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(ModItems.RUBY);
-    }),
-    RUBY2("ruby2", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> {
-        return Ingredient.ofItems(ModItems.BajaBlast);
     });
 
     private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};

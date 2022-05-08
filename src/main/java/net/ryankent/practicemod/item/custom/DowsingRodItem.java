@@ -1,7 +1,6 @@
 package net.ryankent.practicemod.item.custom;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
@@ -34,15 +33,15 @@ public class DowsingRodItem extends Item {
             PlayerEntity player = Objects.requireNonNull(context.getPlayer());
             boolean foundBlock = false;
 
-            for(int i=0; i <= positionClicked.getY(); ++i) {
+            for(int i=0; i <= positionClicked.getY(); ++i) { // Gets the block picked and loops down to the blocks below
                 Block blockBelow = context.getWorld().getBlockState(positionClicked.down(i)).getBlock();
-                if(isValuableEntity(blockBelow)) {
-                    outputValuableCords(blockBelow, positionClicked.add(0,-i,0), player);
+                if(isValuableEntity(blockBelow)) { // Checks the block at i, and sees if it is "valuable"
+                    outputValuableCords(blockBelow, positionClicked.add(0,-i,0), player); // If a valuable block is found this calls a function to put the coordinates in the chat
                     foundBlock = true;
                     break;
                 }
             }
-            if(!foundBlock) {
+            if(!foundBlock) { // Case for no valuables being found
                 player.sendMessage(new LiteralText("Didn't find any valuables at this block"), false);
             }
         }
@@ -53,7 +52,7 @@ public class DowsingRodItem extends Item {
     }
 
     @Override
-    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {  // Appends the tooltip for the item when you hold shift on it
 
         if(Screen.hasShiftDown()) {
             tooltip.add(new TranslatableText("tooltip.practicemod.dowsing_rod_shift"));

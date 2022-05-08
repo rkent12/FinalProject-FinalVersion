@@ -44,10 +44,6 @@ public class PracticeMod implements ModInitializer {
 		UI_BLOCK = Registry.register(Registry.BLOCK, BOX, new UIBlock(FabricBlockSettings.copyOf(Blocks.CHEST)));
 		UI_BLOCK_ITEM = Registry.register(Registry.ITEM, BOX, new BlockItem(UI_BLOCK, new Item.Settings().group(ItemGroup.MISC)));
 
-		//The parameter of build at the very end is always null, do not worry about it
-		// pre-1.17
-		//BOX_BLOCK_ENTITY = Registry.register(Registry.BLOCK_ENTITY_TYPE, BOX, BlockEntityType.Builder.create(BoxBlockEntity::new, BOX_BLOCK).build(null));
-		// In 1.17 use FabricBlockEntityTypeBuilder instead of BlockEntityType.Builder
 		BOX_BLOCK_ENTITY = Registry.register(Registry.BLOCK_ENTITY_TYPE, BOX, FabricBlockEntityTypeBuilder.create(BoxBlockEntity::new, UI_BLOCK).build(null));
 
 		BOX_SCREEN_HANDLER = ScreenHandlerRegistry.registerSimple(BOX, BoxScreenHandler::new);
@@ -57,10 +53,6 @@ public class PracticeMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
-
 		ModConfiguredFeatures.registerConfiguredFeatures();
 
 		ModRendererHelper.setRenderLayers();

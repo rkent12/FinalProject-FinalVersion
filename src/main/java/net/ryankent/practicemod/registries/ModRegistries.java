@@ -8,7 +8,7 @@ import net.ryankent.practicemod.item.ModItems;
 
 public class ModRegistries {
 
-    public static void registerModFuels() {
+    public static void registerModFuels() { // Registers special item categories that have to be loaded differently, like the custom fuel
         System.out.println("Registering Fuels For " + PracticeMod.mod_id);
         FuelRegistry registry = FuelRegistry.INSTANCE;
 

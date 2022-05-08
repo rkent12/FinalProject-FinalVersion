@@ -21,18 +21,7 @@ public class FourthBlock extends QuestBlocks {
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         if(!world.isClient()) {
             if (hand == Hand.MAIN_HAND) {
-                returnedVal = checkBlockProgression("Fourth Block");
-                if(returnedVal == 1) {
-
-                    player.sendMessage(new LiteralText("You completed a step in the quest, the next block is the Fifth Block"), false);
-                    player.addExperienceLevels(12);
-                }
-                else if(returnedVal == 2) {
-                    player.sendMessage(new LiteralText("You are not ready to interact with this block yet"), false);
-                }
-                else if(returnedVal == 3) {
-                    player.sendMessage(new LiteralText("You have already interacted with this block"), false);
-                }
+                checkBlockProgression("Fourth Block", player, world);
             }
         }
         return super.onUse(state, world, pos, player, hand, hit);

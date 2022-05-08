@@ -13,7 +13,7 @@ public class ThorEnchantment extends Enchantment {
     }
 
     @Override
-    public void onTargetDamaged(LivingEntity user, Entity target, int level) {
+    public void onTargetDamaged(LivingEntity user, Entity target, int level) { // Function that strikes the entity hit with lightning
         if(!user.world.isClient()) {
             ServerWorld world = ((ServerWorld) user.world);
             PlayerEntity player = ((PlayerEntity) user);
@@ -37,5 +37,5 @@ public class ThorEnchantment extends Enchantment {
     @Override
     public int getMaxLevel() {
         return 2;
-    }
+    } // Max level for the enchantment
 }

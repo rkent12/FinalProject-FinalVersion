@@ -15,7 +15,7 @@ public class AdrenalineEnchantment extends Enchantment {
     }
 
     @Override
-    public void onUserDamaged(LivingEntity user, Entity target, int level) {
+    public void onUserDamaged(LivingEntity user, Entity target, int level) {  //The function that actually applies speed to the user when they are damaged
         if(!user.world.isClient()) {
             ServerWorld world = ((ServerWorld) user.world);
             PlayerEntity player = ((PlayerEntity) user);
@@ -35,5 +35,5 @@ public class AdrenalineEnchantment extends Enchantment {
     @Override
     public int getMaxLevel() {
         return 2;
-    }
+    } // The maximum level of the enchantment
 }

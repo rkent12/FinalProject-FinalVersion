@@ -6,7 +6,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.ryankent.practicemod.PracticeMod;
 
-public class ModItemGroup {
+public class ModItemGroup { // Makes the mod tab in the creative menu, as well as the general mod category for items that I create
     public static final ItemGroup MOD = FabricItemGroupBuilder.build(new Identifier(PracticeMod.mod_id, "mod"),
             () -> new ItemStack(ModItems.BajaBlast));
 }

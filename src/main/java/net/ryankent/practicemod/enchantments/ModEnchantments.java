@@ -9,16 +9,16 @@ import net.minecraft.util.registry.Registry;
 
 public class ModEnchantments {
 
-    public static Enchantment THOR = register("lightning_striker",
+    public static Enchantment THOR = register("thor",
             new ThorEnchantment(Enchantment.Rarity.UNCOMMON,
-                    EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
+                    EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND)); // Registers the thor enchantment
 
     public static Enchantment ADRENALINE = register("adrenaline",
             new AdrenalineEnchantment(Enchantment.Rarity.UNCOMMON,
-                    EnchantmentTarget.WEARABLE, EquipmentSlot.CHEST));
+                    EnchantmentTarget.WEARABLE, EquipmentSlot.CHEST)); // Registers the adrenaline enchantment
 
 
-    private static Enchantment register(String name, Enchantment enchantment) {
+    private static Enchantment register(String name, Enchantment enchantment) { // Function to register enchantments
         return Registry.register(Registry.ENCHANTMENT, new Identifier(PracticeMod.MOD_ID, name), enchantment);
     }
 

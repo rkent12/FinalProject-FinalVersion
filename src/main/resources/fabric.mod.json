@@ -3,8 +3,8 @@
   "id": "practicemod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Custom Mod",
+  "description": "This is my minecraft mod, I made this as a final project for visual programming 2. ",
   "authors": [
     "Ryan Kent"
   ],
